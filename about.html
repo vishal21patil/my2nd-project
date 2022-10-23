@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="aboutstyle.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>About</title>
+</head>
+<body>
+<section class="title">
+    
+    <nav>
+        <a href="index.html"><img src="logo.jfif" alt="This an image"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-window-close" onclick="hideMenu()" ></i>
+            <ul>
+                <li> <a href="index.html">HOME</a></li>
+                <li> <a href="about.html">ABOUT</a></li>
+                <li> <a href="course.html">COURSE</a></li>
+                <li> <a href="">BLOG</a></li>
+                <li> <a href="contact.html">CONTACT US</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()" ></i>
+    </nav>
+    <h1>About Us</h1>
+</section>
+<section class="about">
+    <div class="col">
+    <h3>Biggest University in Maharashtra</h3>
+    <p>Shivaji University, established in 1962, is named after the Great Maratha Warrior and founder of the Maratha empire Chhatrapati Shivaji Maharaj. It was inaugurated on 18th November, 1962 by Dr. Radhakrishnan, the then President of India. One of the major objectives behind foundation of this University was to cater to the regional needs of South Maharashtra. The jurisdiction of the University is spread over three districts viz. Kolhapur, Sangli and Satara with strength of about 3,00,000 students studying in 280 affiliated colleges and recognised institutes.</p>
+    <a class="button2" href="http://www.unishivaji.ac.in/">EXPLORE NOW</a>
+</div>
+    <img src="meeting.jpg" alt="images">
+</section>
+<footer>
+    <div class="footer"><b>About Us</b>
+    <p>Shivaji University is ranked #1558 in Best Global Universities. Schools are ranked according to their performance across a set of widely accepted indicators of excellence.</p>
+
+</div>
+<section class="icons">
+    <a href="#" class="fa fa-facebook"></a>
+    <a href="#" class="fa fa-twitter"></a>
+    <a href="#" class="fa fa-instagram"></a>
+    <a href="#" class="fa fa-linkedin"></a>
+</section>
+
+
+</footer>
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+</body>
+</html>

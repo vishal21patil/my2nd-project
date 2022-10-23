@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="logo.jfif" alt="This an image"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-window-close" onclick="hideMenu()" ></i>
+                <ul>
+                    <li> <a href="index.html">HOME</a></li>
+                    <li> <a href="about.html">ABOUT</a></li>
+                    <li> <a href="course.html">COURSE</a></li>
+                    <li> <a href="">BLOG</a></li>
+                    <li> <a href="contact.html">CONTACT US</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()" ></i>
+        </nav>
+        <div class="heading">
+            <h1>Shivaji University</h1>
+            <p>Shivaji University, established in 1962, is a state university located at Kolhapur, Maharashtra, India. <br> The university, with a campus spread over 853 acres (345 ha), is named after Chhatrapati Shivaji Maharaj, founder of the Maratha Empire. It was inaugurated on 18 November 1962 by Sarvepalli Radhakrishnan, the then president of India. <br> Yashwantrao Chavan and Balasaheb Desai took the lead in establishing this university.</p>
+            <a class="button1" href="https://en.wikipedia.org/wiki/Shivaji_University">Visit Us to Know More</a>
+        </div>
+    </section>
+    <section class="course">
+        <h1>Courses We Offer</h1>
+        <p>Number of course & offer are avaiable</p>
+        <div class="row">
+            <div class="col">
+                <h3>Intermediate</h3>
+                <p>Lorem Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe, soluta ad incidunt ab praesentium repudiandae asperiores recusandae! Voluptas doloribus, provident dignissimos corrupti aut molestiae expedita rem necessitatibus similique deleniti sunt. ipsum dolor sit amet consectetur adipisicing elit. Fugit maiores dicta saepe.</p>
+            </div>
+            <div class="col">
+                <h3>Degree</h3>
+                <p>Lorem Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe, soluta ad incidunt ab praesentium repudiandae asperiores recusandae! Voluptas doloribus, provident dignissimos corrupti aut molestiae expedita rem necessitatibus similique deleniti sunt. ipsum dolor sit amet consectetur adipisicing elit. Fugit maiores dicta saepe.</p>
+            </div>
+            <div class="col">
+                <h3>Post Graduation</h3>
+                <p>Lorem Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe, soluta ad incidunt ab praesentium repudiandae asperiores recusandae! Voluptas doloribus, provident dignissimos corrupti aut molestiae expedita rem necessitatibus similique deleniti sunt. ipsum dolor sit amet consectetur adipisicing elit. Fugit maiores dicta saepe.</p>
+            </div>
+        </div>
+        <h3 class="h3">Our Global Campus</h3>
+    </section>
+    <section class="campus">
+        <h4>Enroll For Our Various Online Courses <br> Anywhere From The World</h4>
+        <br>
+        <br>
+        <a class="button2" href="">Contact Us</a>
+    </section>
+    <footer>
+        <div class="footer"><b>About Us</b>
+        <p><em>For More Information.</em> </p>
+    </div>
+    <section class="icons">
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-instagram"></a>
+        <a href="#" class="fa fa-linkedin"></a>
+    </section>
+    </footer>
+<script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+</script>
+
+
+</body>
+</html>
